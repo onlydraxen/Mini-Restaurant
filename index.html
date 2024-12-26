@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Restaurant</title>
+        <link rel="stylesheet" href="nav.css">
+        <link rel="stylesheet" href="home.css">
+        <link rel="stylesheet" href="menu.css">
+        <link rel="stylesheet" href="contact.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-brand">
+            <div class="logo">My Restaurant</div>
+            <span class="tagline">Fine Dining</span>
+        </div>
+        
+        <div class="hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+
+        <ul class="nav-menu">
+            <li class="nav-item"><a href="#home" class="active">Home</a></li>
+            <li class="nav-item"><a href="#featured">Our Specialties </a></li>
+            <li class="nav-item"><a href="#menu">Menu</a></li>
+            <li class="nav-item"><a href="#contact" class="contact-btn">Book a Table</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to <span class="highlight">My Restaurant</span></h1>
+            <p class="subtitle">Experience Fine Dining at its Best</p>
+            <p class="description">Indulge in a culinary journey with our exquisite dishes prepared by world-class chefs</p>
+            <div class="cta-buttons">
+                <a href="#menu" class="primary-btn">View Menu</a>
+                <a href="#contact" class="secondary-btn">Reserve Table</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&q=80&w=800" 
+                 alt="Signature dish">
+        </div>
+    </section>
+
+    <!-- Featured Section -->
+    <section id="featured" class="featured">
+        <h2>Our Specialties</h2>
+        <div class="dish-grid">
+            <div class="dish-card">
+                <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=80&w=800" 
+                     alt="Signature Steak">
+                <div class="dish-info">
+                    <h3>Premium Steak</h3>
+                    <p>Aged to Perfection</p>
+                </div>
+            </div>
+            <div class="dish-card">
+                <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&q=80&w=800" 
+                     alt="Fresh Salad">
+                <div class="dish-info">
+                    <h3>Garden Fresh</h3>
+                    <p>Seasonal Ingredients</p>
+                </div>
+            </div>
+            <div class="dish-card">
+                <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&q=80&w=800" 
+                     alt="Dessert">
+                <div class="dish-info">
+                    <h3>Sweet Delights</h3>
+                    <p>Artisanal Desserts</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+        <!-- Menu Section -->
+        <section id="menu" class="menu-section">
+            <h2>Our Menu</h2>
+            <div class="menu-categories">
+                <button class="category-btn active">All</button>
+                <button class="category-btn">Starters</button>
+                <button class="category-btn">Main Course</button>
+                <button class="category-btn">Desserts</button>
+                <button class="category-btn">Drinks</button>
+            </div>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1559847844-5315695dadae?auto=format&fit=crop&q=80&w=800" alt="Caprese Salad">
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3 class="menu-item-title">Caprese Salad</h3>
+                            <span class="menu-item-price">$12</span>
+                        </div>
+                        <p class="menu-item-description">Fresh mozzarella, tomatoes, and basil drizzled with balsamic glaze</p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&q=80&w=800" alt="Ribeye Steak">
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3 class="menu-item-title">Ribeye Steak</h3>
+                            <span class="menu-item-price">$38</span>
+                        </div>
+                        <p class="menu-item-description">Prime cut ribeye served with roasted vegetables and red wine sauce</p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&q=80&w=800" alt="Chocolate Lava Cake">
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3 class="menu-item-title">Chocolate Lava Cake</h3>
+                            <span class="menu-item-price">$10</span>
+                        </div>
+                        <p class="menu-item-description">Warm chocolate cake with a molten center, served with vanilla ice cream</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h2>Make a Reservation</h2>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i>📍</i>
+                            <p>123 Restaurant Street, Foodie City, FC 12345</p>
+                        </div>
+                        <div class="contact-item">
+                            <i>📞</i>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                        <div class="contact-item">
+                            <i>✉️</i>
+                            <p>reservations@myrestaurant.com</p>
+                        </div>
+                        <div class="contact-item">
+                            <i>🕒</i>
+                            <p>Mon-Sun: 11:00 AM - 10:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="date">Date</label>
+                        <input type="date" id="date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="time">Time</label>
+                        <select id="time" required>
+                            <option value="">Select time</option>
+                            <option>11:00 AM</option>
+                            <option>12:00 PM</option>
+                            <option>1:00 PM</option>
+                            <option>2:00 PM</option>
+                            <option>5:00 PM</option>
+                            <option>6:00 PM</option>
+                            <option>7:00 PM</option>
+                            <option>8:00 PM</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="guests">Number of Guests</label>
+                        <select id="guests" required>
+                            <option value="">Select number of guests</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7+</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="special">Special Requests</label>
+                        <textarea id="special" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Book Table</button>
+                </form>
+            </div>
+        </section>
+
+        <div class="Draxen">
+            <p>By Draxen </p>
+        </div>
+    
+        <script src="navigation.js"></script>
+    </body>
+    </html>
+</body>
+</html>
